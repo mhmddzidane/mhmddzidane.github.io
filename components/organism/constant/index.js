@@ -1,0 +1,70 @@
+import {
+  book,
+  bookshelf,
+  movielist,
+  portal,
+  prayer,
+  trvl,
+  warteg,
+} from "../../../public/images/homePage";
+
+export const projects = {
+  all: [
+    {
+      name: `TRVL`,
+      photo: trvl,
+      desc: `This project is static react landing page`,
+      github: `https://github.com/mhmddzidane/TRVL-React`,
+      category: `react`,
+      id: 1,
+    },
+    {
+      name: `DaneBooking`,
+      photo: book,
+      desc: `This project is fullstack hotel booking app`,
+      github: `https://github.com/mhmddzidane/DaneBook`,
+      category: `mern`,
+      id: 2,
+    },
+    {
+      name: `Movie List`,
+      photo: movielist,
+      desc: `This project was made using movie api`,
+      github: `https://github.com/mhmddzidane/Movie-List`,
+      category: `html`,
+      id: 3,
+    },
+    {
+      name: `Bookshelf App`,
+      photo: bookshelf,
+      desc: `This project is dicoding submission`,
+      github: `https://github.com/mhmddzidane/ToReadBookApps`,
+      category: "html",
+      id: 4,
+    },
+    {
+      name: `Prayer Times`,
+      photo: prayer,
+      desc: `Prayer Times based on user location, using api from https://aladhan.com/prayer-times-api`,
+      github: `https://github.com/mhmddzidane/Prayer-Times`,
+      category: "html",
+      id: 5,
+    },
+    {
+      name: `Portal Beritaku`,
+      photo: portal,
+      desc: `Website Portal Berita dengan ReactJS diambil dari API https://newsapi.org/`,
+      github: `https://github.com/mhmddzidane/PortalBeritaku`,
+      category: "react",
+      id: 6,
+    },
+    {
+      name: `Warteg 4.0`,
+      photo: warteg,
+      desc: `Warteg Website built with React js and Simple backend using Jsonplaceholder fake api`,
+      github: `https://github.com/mhmddzidane/Warteg-4.0`,
+      category: "react",
+      id: 7,
+    },
+  ],
+};
