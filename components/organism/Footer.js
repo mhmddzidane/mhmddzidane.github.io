@@ -101,7 +101,7 @@ const Footer = () => {
             <span className="sr-only">mail page</span>
           </a>
           <a
-            href="#"
+            href="https://github.com/mhmddzidane"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
             <svg

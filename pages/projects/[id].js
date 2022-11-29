@@ -24,7 +24,7 @@ const ProjectDetail = () => {
               <ImageWrapper
                 src={project.photo}
                 alt="Project photo"
-                className="w-full h-[300px] mb-10 md:mb-0 md:w-[600px] md:h-[450px] relative"
+                className="w-full h-[300px] mb-10 md:mb-0 md:w-[600px] md:h-[450px] relative rounded-md border-black border"
               />
               <div className="px-4 flex flex-col gap-4 text-center md:text-start">
                 <p className="font-bold uppercase text-4xl">{project.name}</p>
@@ -41,6 +41,16 @@ const ProjectDetail = () => {
                   />
                   <p className="font-semibold">Github</p>
                 </Link>
+                <p className="font-semibold mt-5">Technology used:</p>
+                <div className="flex justify-center md:justify-start">
+                  {project?.tech?.map((tech, index) => (
+                    <ImageWrapper
+                      src={tech}
+                      alt="tech used"
+                      className="relative w-16 h-16 mr-5"
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           ))}

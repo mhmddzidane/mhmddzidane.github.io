@@ -6,5 +6,6 @@ import prayer from "./prayer.png";
 import portal from "./portal.png";
 import bookshelf from "./bookshelf.png";
 import movielist from "./movielist.png";
+import dans from "./dans.png";
 
-export { pic, trvl, book, warteg, prayer, portal, bookshelf, movielist };
+export { pic, trvl, book, warteg, prayer, portal, bookshelf, dans, movielist };
