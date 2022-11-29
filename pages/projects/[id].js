@@ -30,17 +30,29 @@ const ProjectDetail = () => {
                 <p className="font-bold uppercase text-4xl">{project.name}</p>
                 <p>{project.desc}</p>
 
-                <Link
-                  href={project.github}
-                  className="flex gap-x-2 items-center justify-center md:justify-start"
-                >
-                  <ImageWrapper
-                    src={git}
-                    alt="github link"
-                    className="relative w-10 h-10"
-                  />
-                  <p className="font-semibold">Github</p>
-                </Link>
+                <div className="flex">
+                  <Link
+                    href={project.github}
+                    className="flex gap-x-2 items-center justify-center md:justify-start"
+                  >
+                    <ImageWrapper
+                      src={git}
+                      alt="github link"
+                      className="relative w-10 h-10"
+                    />
+                    <p className="font-semibold">Github</p>
+                  </Link>
+                  {project.demo && (
+                    <Link
+                      href={project.demo}
+                      className="flex gap-x-2 items-center justify-center md:justify-start"
+                    >
+                      <p className="font-semibold ml-5 hover:text-cyan-600">
+                        DEMO
+                      </p>
+                    </Link>
+                  )}
+                </div>
                 <p className="font-semibold mt-5">Technology used:</p>
                 <div className="flex justify-center md:justify-start">
                   {project?.tech?.map((tech, index) => (

@@ -1,8 +1,16 @@
-import { express, js, mongo, react } from "../../../public/icon";
+import {
+  express,
+  js,
+  mongo,
+  next,
+  react,
+  tailwind,
+} from "../../../public/icon";
 import {
   book,
   bookshelf,
   dans,
+  disney,
   movielist,
   portal,
   prayer,
@@ -83,6 +91,16 @@ export const projects = {
       tech: [react, express, mongo],
       category: "mern",
       id: 8,
+    },
+    {
+      name: `Disney+ Clone`,
+      photo: disney,
+      desc: `Projek latihan cloning web disney+ dengan api https://www.themoviedb.org/`,
+      github: `https://github.com/mhmddzidane/DisneyPlusClone`,
+      demo: `https://disney-plus-clone-eight-rosy.vercel.app/`,
+      tech: [next, tailwind],
+      category: "react",
+      id: 9,
     },
   ],
 };

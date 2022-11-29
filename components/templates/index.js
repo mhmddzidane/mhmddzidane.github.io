@@ -11,7 +11,7 @@ const AppLayout = ({ title, description, children }) => {
         <link rel="shortcut icon" href="favicon.ico" />
       </Head>
       <Navsbar />
-      <main className="min-h-screen md:min-h-min ">{children}</main>
+      <main className="min-h-screen md:min-h-min">{children}</main>
       <Footer />
     </div>
   );

@@ -34,7 +34,7 @@ const Home = () => {
   return (
     <AppLayout {...headList}>
       <Header />
-      <div className="text-center mt-20 px-5 md:px-28" id="about">
+      <div className="text-center mt-20 px-5 md:px-28 " id="about">
         <p className="text-4xl">GET TO KNOW ME</p>
         <div className="flex md:flex-row flex-col-reverse justify-center mt-10  ">
           <div className="bg-black text-start px-5 py-4">

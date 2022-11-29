@@ -7,5 +7,17 @@ import portal from "./portal.png";
 import bookshelf from "./bookshelf.png";
 import movielist from "./movielist.png";
 import dans from "./dans.png";
+import disney from "./disney.png";
 
-export { pic, trvl, book, warteg, prayer, portal, bookshelf, dans, movielist };
+export {
+  pic,
+  trvl,
+  book,
+  warteg,
+  prayer,
+  portal,
+  bookshelf,
+  dans,
+  movielist,
+  disney,
+};
