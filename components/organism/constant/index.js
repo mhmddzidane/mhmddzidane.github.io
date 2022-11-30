@@ -32,7 +32,7 @@ export const projects = {
     {
       name: `DaneBooking`,
       photo: book,
-      desc: `This project is fullstack hotel booking app`,
+      desc: `Projek latihan fullstack webb booking hotel`,
       github: `https://github.com/mhmddzidane/DaneBook`,
       tech: [react, express, mongo],
       category: `mern`,
@@ -50,7 +50,7 @@ export const projects = {
     {
       name: `Bookshelf App`,
       photo: bookshelf,
-      desc: `This project is dicoding submission`,
+      desc: `Submission belajar fundamental web Dicoding`,
       github: `https://github.com/mhmddzidane/ToReadBookApps`,
       tech: [js],
       category: "html",
@@ -86,8 +86,9 @@ export const projects = {
     {
       name: `DANS`,
       photo: dans,
-      desc: `Fullstack online fashion store`,
+      desc: `Projek latihan fullstack web online store`,
       github: `https://github.com/mhmddzidane/dans-fashion-store`,
+      demo: `https://dans-fashion-store.vercel.app/`,
       tech: [react, express, mongo],
       category: "mern",
       id: 8,

@@ -30,7 +30,7 @@ const ProjectDetail = () => {
                 <p className="font-bold uppercase text-4xl">{project.name}</p>
                 <p>{project.desc}</p>
 
-                <div className="flex">
+                <div className="flex justify-center md:justify-start">
                   <Link
                     href={project.github}
                     className="flex gap-x-2 items-center justify-center md:justify-start"
