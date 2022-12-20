@@ -48,7 +48,7 @@ const Navsbar = () => {
         <a href="#contact">
           <p>Contact</p>
         </a>
-        <a href="https://drive.google.com/file/d/1YgZHfrlMg2itkdLaEkLQ2FOgoVhA-0Og/view">
+        <a href="https://drive.google.com/file/d/1PvXfKp_s4A38Z1YrNgDZRu2Jwf6i8lek/view?usp=drivesdk">
           <p>Resume</p>
         </a>
         <hr className="my-6" />
