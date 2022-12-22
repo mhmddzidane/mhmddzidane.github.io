@@ -8,6 +8,7 @@ import bookshelf from "./bookshelf.png";
 import movielist from "./movielist.png";
 import dans from "./dans.png";
 import disney from "./disney.png";
+import marvel from "./marvel.png";
 
 export {
   pic,
@@ -20,4 +21,5 @@ export {
   dans,
   movielist,
   disney,
+  marvel,
 };

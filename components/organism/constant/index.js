@@ -4,6 +4,7 @@ import {
   mongo,
   next,
   react,
+  redux,
   tailwind,
 } from "../../../public/icon";
 import {
@@ -11,6 +12,7 @@ import {
   bookshelf,
   dans,
   disney,
+  marvel,
   movielist,
   portal,
   prayer,
@@ -89,7 +91,7 @@ export const projects = {
       desc: `Projek latihan fullstack web online store`,
       github: `https://github.com/mhmddzidane/dans-fashion-store`,
       demo: `https://dans-fashion-store.vercel.app/`,
-      tech: [react, express, mongo],
+      tech: [react, express, mongo, redux],
       category: "mern",
       id: 8,
     },
@@ -102,6 +104,16 @@ export const projects = {
       tech: [next, tailwind],
       category: "react",
       id: 9,
+    },
+    {
+      name: `MARVEL WIKI`,
+      photo: marvel,
+      desc: `Website to find information about marvel universe`,
+      github: `https://github.com/mhmddzidane/marvel-wiki`,
+      demo: `https://marvel-wiki-lyart.vercel.app/`,
+      tech: [next, tailwind],
+      category: "react",
+      id: 10,
     },
   ],
 };

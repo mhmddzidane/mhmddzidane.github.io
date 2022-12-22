@@ -8,5 +8,6 @@ import mongo from "./mongo.svg";
 import js from "./js.svg";
 import next from "./next.svg";
 import tailwind from "./tailwind.svg";
+import redux from "./redux.png";
 
-export { ig, git, linked, z, react, express, js, tailwind, next, mongo };
+export { ig, git, linked, z, react, express, js, tailwind, next, mongo, redux };
