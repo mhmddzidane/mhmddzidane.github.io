@@ -9,5 +9,19 @@ import js from "./js.svg";
 import next from "./next.svg";
 import tailwind from "./tailwind.svg";
 import redux from "./redux.png";
+import mySql from "./MySQL.png";
 
-export { ig, git, linked, z, react, express, js, tailwind, next, mongo, redux };
+export {
+  ig,
+  git,
+  linked,
+  mySql,
+  z,
+  react,
+  express,
+  js,
+  tailwind,
+  next,
+  mongo,
+  redux,
+};
