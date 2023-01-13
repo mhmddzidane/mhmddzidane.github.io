@@ -1,4 +1,5 @@
 import {
+  ci,
   express,
   js,
   mongo,
@@ -14,6 +15,7 @@ import {
   dans,
   dansSoc,
   disney,
+  hidden,
   marvel,
   movielist,
   portal,
@@ -125,6 +127,16 @@ export const projects = {
       tech: [react, express, mySql],
       category: "mern",
       id: 11,
+    },
+    {
+      name: `Hidden Gem`,
+      photo: hidden,
+      desc: `Project Matakuliah pemrogman smartweb`,
+      github: `https://github.com/mhmddzidane/HiddenGem`,
+      demo: `https://gemshidden.000webhostapp.com/`,
+      tech: [ci, mySql],
+      category: "php",
+      id: 12,
     },
   ],
 };

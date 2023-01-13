@@ -33,6 +33,12 @@ const Projects = () => {
         >
           MERN
         </p>
+        <p
+          className="border-2 border-white w-[150px] p-3 cursor-pointer"
+          onClick={() => setShowProject("php")}
+        >
+          PHP
+        </p>
       </div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center">
         {showProject != "all"

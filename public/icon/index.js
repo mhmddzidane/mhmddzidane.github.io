@@ -10,7 +10,7 @@ import next from "./next.svg";
 import tailwind from "./tailwind.svg";
 import redux from "./redux.png";
 import mySql from "./MySQL.png";
-
+import ci from "./ci.png";
 export {
   ig,
   git,
@@ -24,4 +24,5 @@ export {
   next,
   mongo,
   redux,
+  ci,
 };

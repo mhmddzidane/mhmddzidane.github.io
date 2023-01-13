@@ -10,6 +10,7 @@ import dans from "./dans.png";
 import disney from "./disney.png";
 import marvel from "./marvel.png";
 import dansSoc from "./danssoc.png";
+import hidden from "./hidden.png";
 
 export {
   pic,
@@ -23,5 +24,6 @@ export {
   movielist,
   disney,
   marvel,
+  hidden,
   dansSoc,
 };
