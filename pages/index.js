@@ -7,6 +7,7 @@ import { motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import Experience from "../components/organism/Experience";
 
 const Home = () => {
   const headList = {
@@ -62,13 +63,14 @@ const Home = () => {
             />
           </div>
         </div>
+        <Experience />
         <motion.div
           ref={ref}
           variants={boxVariant}
           initial="hidden"
           animate={control}
         >
-          <p className="mt-20  text-4xl" id="portfolio">
+          <p className="mt-2  text-4xl" id="portfolio">
             PORTFOLIO
           </p>
           <p className="mt-10 text-xl">

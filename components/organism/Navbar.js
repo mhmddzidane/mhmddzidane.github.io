@@ -42,18 +42,21 @@ const Navsbar = () => {
         <a href="#about">
           <p>About</p>
         </a>
+        <a href="#experience">
+          <p>Experience</p>
+        </a>
         <a href="#portfolio">
           <p>Portfolio</p>
         </a>
         <a href="#contact">
           <p>Contact</p>
         </a>
-        <a href="https://drive.google.com/file/d/1PvXfKp_s4A38Z1YrNgDZRu2Jwf6i8lek/view?usp=drivesdk">
+        <a href="https://drive.google.com/file/d/1RRPJpKwMLf0jv3dBAOQ3mLfwR8SkQ4b0/view?usp=sharing">
           <p>Resume</p>
         </a>
         <hr className="my-6" />
         <p className="text-base">
-          Muhammad Zidane is a 7th semester student at Mercu Buana University
+          Muhammad Zidane is a 8th semester student at Mercu Buana University
           based in Tangerang, Indonesia.
         </p>
         <a href="mailto:muhammadzidane633@gmail.com">
