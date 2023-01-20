@@ -26,7 +26,7 @@ const ProjectDetail = () => {
                 alt="Project photo"
                 className="w-full h-[300px] mb-10 md:mb-0 md:w-[600px] md:h-[450px] relative rounded-md border-black border"
               />
-              <div className="px-4 flex flex-col gap-4 text-center md:text-start">
+              <div className="px-4 flex flex-col gap-4 text-center md:text-start max-w-lg">
                 <p className="font-bold uppercase text-4xl">{project.name}</p>
                 <p>{project.desc}</p>
 

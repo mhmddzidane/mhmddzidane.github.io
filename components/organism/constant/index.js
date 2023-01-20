@@ -1,4 +1,5 @@
 import {
+  boot,
   ci,
   express,
   js,
@@ -8,6 +9,7 @@ import {
   react,
   redux,
   tailwind,
+  vue,
 } from "../../../public/icon";
 import {
   book,
@@ -16,6 +18,7 @@ import {
   dansSoc,
   disney,
   hidden,
+  kulineran,
   marvel,
   movielist,
   portal,
@@ -29,7 +32,7 @@ export const projects = {
     {
       name: `TRVL`,
       photo: trvl,
-      desc: `This project is static react landing page`,
+      desc: `This project is static react landing page, this project was made the first time I learned react js`,
       github: `https://github.com/mhmddzidane/TRVL-React`,
       tech: [react],
       category: `react`,
@@ -38,7 +41,7 @@ export const projects = {
     {
       name: `DaneBooking`,
       photo: book,
-      desc: `Projek latihan fullstack webb booking hotel`,
+      desc: `This is a fullstack website that i built after learning mern stack from LamaDev, you can book your hotel room and choose which date you want to book`,
       github: `https://github.com/mhmddzidane/DaneBook`,
       tech: [react, express, mongo],
       category: `mern`,
@@ -83,9 +86,9 @@ export const projects = {
     {
       name: `Warteg 4.0`,
       photo: warteg,
-      desc: `Warteg Website built with React js and Simple backend using Jsonplaceholder fake api`,
+      desc: `Exercise project built with React js and Jsonplaceholder fake api`,
       github: `https://github.com/mhmddzidane/Warteg-4.0`,
-      tech: [react],
+      tech: [react, boot],
       category: "react",
       id: 7,
     },
@@ -112,7 +115,7 @@ export const projects = {
     {
       name: `MARVEL WIKI`,
       photo: marvel,
-      desc: `Website to find information about marvel universe`,
+      desc: `Website to find information about marvel universe (in development)`,
       github: `https://github.com/mhmddzidane/marvel-wiki`,
       demo: `https://marvel-wiki-lyart.vercel.app/`,
       tech: [next, tailwind],
@@ -122,7 +125,7 @@ export const projects = {
     {
       name: `Dans Social`,
       photo: dansSoc,
-      desc: `Fullstack web social media`,
+      desc: `Fullstack social media website, you can post,comment,and like and also follow your friends. (in development)`,
       github: `https://github.com/mhmddzidane/Dans-Social`,
       tech: [react, express, mySql],
       category: "mern",
@@ -131,12 +134,21 @@ export const projects = {
     {
       name: `Hidden Gem`,
       photo: hidden,
-      desc: `Project Matakuliah pemrogman smartweb`,
+      desc: `Project Matakuliah pemrogman smartweb, top 10 finalist pameran hasil karya mahasiswa fakultas ilmu komputer`,
       github: `https://github.com/mhmddzidane/HiddenGem`,
       demo: `https://gemshidden.000webhostapp.com/`,
-      tech: [ci, mySql],
+      tech: [ci, mySql, boot],
       category: "php",
       id: 12,
+    },
+    {
+      name: `Kulineran`,
+      photo: kulineran,
+      desc: `Vuejs and Vuex learning projects, users can see food, search for food, and put food in baskets, and complete orders. Built using the fake Jsonplaceholder api`,
+      github: `https://github.com/mhmddzidane/kulineran`,
+      tech: [vue, boot],
+      category: "vue",
+      id: 13,
     },
   ],
 };

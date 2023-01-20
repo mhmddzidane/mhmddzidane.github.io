@@ -11,6 +11,7 @@ import disney from "./disney.png";
 import marvel from "./marvel.png";
 import dansSoc from "./danssoc.png";
 import hidden from "./hidden.png";
+import kulineran from "./kulineran.png";
 
 export {
   pic,
@@ -26,4 +27,5 @@ export {
   marvel,
   hidden,
   dansSoc,
+  kulineran,
 };

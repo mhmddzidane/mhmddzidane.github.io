@@ -11,6 +11,8 @@ import tailwind from "./tailwind.svg";
 import redux from "./redux.png";
 import mySql from "./MySQL.png";
 import ci from "./ci.png";
+import vue from "./vue.svg";
+import boot from "./boot.svg";
 export {
   ig,
   git,
@@ -25,4 +27,6 @@ export {
   mongo,
   redux,
   ci,
+  boot,
+  vue,
 };

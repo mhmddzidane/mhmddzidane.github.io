@@ -35,6 +35,12 @@ const Projects = () => {
         </p>
         <p
           className="border-2 border-white w-[150px] p-3 cursor-pointer"
+          onClick={() => setShowProject("vue")}
+        >
+          VUE JS
+        </p>
+        <p
+          className="border-2 border-white w-[150px] p-3 cursor-pointer"
           onClick={() => setShowProject("php")}
         >
           PHP
