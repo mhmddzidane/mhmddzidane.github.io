@@ -13,6 +13,7 @@ import mySql from "./MySQL.png";
 import ci from "./ci.png";
 import vue from "./vue.svg";
 import boot from "./boot.svg";
+import nuxt from "./nuxt.svg";
 export {
   ig,
   git,
@@ -29,4 +30,5 @@ export {
   ci,
   boot,
   vue,
+  nuxt,
 };

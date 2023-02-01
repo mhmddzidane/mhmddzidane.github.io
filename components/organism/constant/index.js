@@ -6,6 +6,7 @@ import {
   mongo,
   mySql,
   next,
+  nuxt,
   react,
   redux,
   tailwind,
@@ -23,21 +24,13 @@ import {
   movielist,
   portal,
   prayer,
+  task,
   trvl,
   warteg,
 } from "../../../public/images/homePage";
 
 export const projects = {
   all: [
-    {
-      name: `TRVL`,
-      photo: trvl,
-      desc: `This project is static react landing page, this project was made the first time I learned react js`,
-      github: `https://github.com/mhmddzidane/TRVL-React`,
-      tech: [react],
-      category: `react`,
-      id: 1,
-    },
     {
       name: `DaneBooking`,
       photo: book,
@@ -149,6 +142,15 @@ export const projects = {
       tech: [vue, boot],
       category: "vue",
       id: 13,
+    },
+    {
+      name: `Task Board`,
+      photo: task,
+      desc: `Nuxtjs and Vuex learning projects, user can insert task, change it to done, and delete it`,
+      github: `https://github.com/mhmddzidane/nuxt-todo`,
+      tech: [nuxt],
+      category: "vue",
+      id: 14,
     },
   ],
 };
