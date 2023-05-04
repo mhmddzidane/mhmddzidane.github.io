@@ -13,6 +13,7 @@ import dansSoc from "./danssoc.png";
 import hidden from "./hidden.png";
 import kulineran from "./kulineran.png";
 import task from "./task.png";
+import showhun from "./showhun.png";
 
 export {
   pic,
@@ -30,4 +31,5 @@ export {
   dansSoc,
   kulineran,
   task,
+  showhun,
 };
