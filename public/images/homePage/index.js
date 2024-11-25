@@ -14,6 +14,11 @@ import hidden from "./hidden.png";
 import kulineran from "./kulineran.png";
 import task from "./task.png";
 import showhun from "./showhun.png";
+import qleap from "./qleap.png";
+import qleapMobile from "./qleap-mobile.png";
+import medeasy from "./medeasy.png";
+import medeasyMobile from "./medeasy-mobile.png";
+import bountie from "./bountie.png";
 
 export {
   pic,
@@ -32,4 +37,9 @@ export {
   kulineran,
   task,
   showhun,
+  qleap,
+  qleapMobile,
+  medeasy,
+  medeasyMobile,
+  bountie,
 };

@@ -41,17 +41,19 @@ const Home = () => {
           <div className="bg-black text-start px-5 py-4">
             <div className="flex flex-col">
               <p className="text-white text-2xl">
-                Hello, my name is Zidane. I am an Undergradute Informatics
-                Engineering Student at Mercu Buana University.
+                Hello, my name is Zidane. I am a Mobile and web developer with
+                more than 2 years experience.
               </p>
               <hr className="my-5" />
               <p className="text-white text-xl">
-                I design and develop websites and web applications using HTML,
-                CSS and JavaScript. I am focus in Front-end Web Development. As
-                a person I'm a meticulous, organized, multitask and
-                forward-thinking individual with a strong passion to learn new
-                things.I have big interest in programming, especially in web
-                development.
+                I design and develop innovative mobile and web applications
+                using cutting-edge technologies, seamlessly bridging front-end
+                elegance with back-end efficiency. As a meticulous, organized,
+                and forward-thinking individual, I thrive in multitasking
+                environments and am driven by an insatiable passion for
+                learning. My deep-rooted fascination with programming,
+                especially in web development, fuels my commitment to creating
+                impactful digital experiences.
               </p>
             </div>
           </div>

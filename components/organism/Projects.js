@@ -25,7 +25,7 @@ const Projects = () => {
           className="border-2 border-white w-[150px] p-3 cursor-pointer"
           onClick={() => setShowProject("react")}
         >
-          React JS
+          React JS & React Native
         </p>
         <p
           className="border-2 border-white w-[150px] p-3 cursor-pointer"
@@ -45,6 +45,12 @@ const Projects = () => {
         >
           PHP
         </p>
+        <p
+          className="border-2 border-white w-[150px] p-3 cursor-pointer"
+          onClick={() => setShowProject("flutter")}
+        >
+          Flutter
+        </p>
       </div>
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center">
         {showProject != "all"
@@ -59,8 +65,9 @@ const Projects = () => {
                       <ImageWrapper
                         src={project.photo}
                         alt="project picture"
-                        className="relative w-full h-[200px] transition-all z-20 rounded-t-lg hover:scale-105"
+                        className="relative w-full h-[400px] transition-all z-20 rounded-t-lg hover:scale-105 object-cover"
                       />
+
                       <p className="py-2">{project.name}</p>
                     </div>
                   </Link>
@@ -76,7 +83,7 @@ const Projects = () => {
                   <ImageWrapper
                     src={projects.photo}
                     alt="project picture"
-                    className="relative w-full h-[200px] transition-all rounded-t-lg hover:scale-105"
+                    className="relative w-full h-[400px] transition-all z-20 rounded-t-lg hover:scale-105 object-cover"
                   />
                   <p className="py-2">{projects.name}</p>
                 </div>

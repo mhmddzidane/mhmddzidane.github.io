@@ -24,30 +24,40 @@ const ProjectDetail = () => {
               <ImageWrapper
                 src={project.photo}
                 alt="Project photo"
-                className="w-full h-[300px] mb-10 md:mb-0 md:w-[600px] md:h-[450px] relative rounded-md border-black border"
+                className={`w-full h-[300px] mb-10 md:mb-0 md:w-[600px] ${
+                  project.id == 17 ? "md:h-[750px]" : "md:h-[450px]"
+                }  relative rounded-md border-black border`}
               />
-              <div className="px-4 flex flex-col gap-4 text-center md:text-start max-w-lg">
+              <div className="px-4 flex flex-col gap-4 text-center md:text-start max-w-4xl">
                 <p className="font-bold uppercase text-4xl">{project.name}</p>
-                <p>{project.desc}</p>
+                <p className="">{project.desc}</p>
 
                 <div className="flex justify-center md:justify-start">
-                  <Link
-                    href={project.github}
-                    className="flex gap-x-2 items-center justify-center md:justify-start"
-                  >
-                    <ImageWrapper
-                      src={git}
-                      alt="github link"
-                      className="relative w-10 h-10"
-                    />
-                    <p className="font-semibold">Github</p>
-                  </Link>
+                  {project.github !== "" ? (
+                    <Link
+                      href={project.github}
+                      className="flex gap-x-2 items-center justify-center md:justify-start"
+                    >
+                      <ImageWrapper
+                        src={git}
+                        alt="github link"
+                        className="relative w-10 h-10"
+                      />
+                      <p className="font-semibold">Github</p>
+                    </Link>
+                  ) : (
+                    ""
+                  )}
                   {project.demo && (
                     <Link
                       href={project.demo}
                       className="flex gap-x-2 items-center justify-center md:justify-start"
                     >
-                      <p className="font-semibold ml-5 hover:text-cyan-600">
+                      <p
+                        className={`font-semibold ${
+                          project.github == "" ? "ml-0" : "ml-5"
+                        } hover:text-cyan-600`}
+                      >
                         DEMO
                       </p>
                     </Link>
