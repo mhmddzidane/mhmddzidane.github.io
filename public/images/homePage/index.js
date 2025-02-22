@@ -19,6 +19,7 @@ import qleapMobile from "./qleap-mobile.png";
 import medeasy from "./medeasy.png";
 import medeasyMobile from "./medeasy-mobile.png";
 import bountie from "./bountie.png";
+import mockupMeadeasy from "./mockup_medeasy.png";
 
 export {
   pic,
@@ -42,4 +43,5 @@ export {
   medeasy,
   medeasyMobile,
   bountie,
+  mockupMeadeasy,
 };

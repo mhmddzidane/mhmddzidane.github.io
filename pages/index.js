@@ -15,23 +15,6 @@ const Home = () => {
     description: `This is homepage`,
   };
 
-  const control = useAnimation();
-  const [ref, inView] = useInView();
-  const [refProject, projectView] = useInView();
-
-  useEffect(() => {
-    if (inView || projectView) {
-      control.start("visible");
-    } else {
-      control.start("hidden");
-    }
-  }, [control, inView, projectView]);
-
-  const boxVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, scale: 0 },
-  };
-
   return (
     <AppLayout {...headList}>
       <Header />
@@ -52,8 +35,8 @@ const Home = () => {
                 and forward-thinking individual, I thrive in multitasking
                 environments and am driven by an insatiable passion for
                 learning. My deep-rooted fascination with programming,
-                especially in web development, fuels my commitment to creating
-                impactful digital experiences.
+                especially in mobile & web development, fuels my commitment to
+                creating impactful digital experiences.
               </p>
             </div>
           </div>
@@ -66,29 +49,17 @@ const Home = () => {
           </div>
         </div>
         <Experience />
-        <motion.div
-          ref={ref}
-          variants={boxVariant}
-          initial="hidden"
-          animate={control}
-        >
-          <p className="mt-2  text-4xl" id="portfolio">
-            PORTFOLIO
-          </p>
-          <p className="mt-10 text-xl">
-            Examples of my latest projects build with Web Technologies. My
-            portfolio includes static websites, web applications ,and submission
-            from some online course company.
-          </p>
-        </motion.div>
-        <motion.div
-          ref={refProject}
-          variants={boxVariant}
-          initial="hidden"
-          animate={control}
-        >
-          <Projects />
-        </motion.div>
+
+        <p className="mt-2  text-4xl" id="portfolio">
+          PORTFOLIO
+        </p>
+        <p className="mt-10 text-xl">
+          Examples of my latest projects build with Web Technologies. My
+          portfolio includes static websites, web applications ,and submission
+          from some online course company.
+        </p>
+
+        <Projects />
       </div>
     </AppLayout>
   );

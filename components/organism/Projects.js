@@ -1,10 +1,21 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ImageWrapper from "../molecules/ImageWrapper";
 import { projects } from "./constant";
 
 const Projects = () => {
   const [showProject, setShowProject] = useState("all");
+
+  useEffect(() => {
+    const scrollPos = sessionStorage.getItem("scrollPos");
+    if (scrollPos) {
+      window.scrollTo(0, parseInt(scrollPos, 10));
+    }
+  }, []);
+
+  const saveScrollPosition = () => {
+    sessionStorage.setItem("scrollPos", window.scrollY);
+  };
 
   return (
     <>
@@ -14,12 +25,6 @@ const Projects = () => {
           onClick={() => setShowProject("all")}
         >
           ALL
-        </p>
-        <p
-          className="border-2 border-white w-[150px] py-3 px-1 cursor-pointer"
-          onClick={() => setShowProject("html")}
-        >
-          HTML + CSS + JS
         </p>
         <p
           className="border-2 border-white w-[150px] p-3 cursor-pointer"
@@ -57,7 +62,11 @@ const Projects = () => {
           ? projects.all.map((project, index) => (
               <div>
                 {showProject == project.category && (
-                  <Link href={`/projects/${project.id}`}>
+                  <Link
+                    href={`/projects/${project.id}`}
+                    scroll={false}
+                    onClick={saveScrollPosition}
+                  >
                     <div
                       key={index}
                       className="bg-gray-700 mb-2 w-full md:w-[35vw] rounded-t-lg mr-4 text-white"
@@ -75,7 +84,11 @@ const Projects = () => {
               </div>
             ))
           : projects.all.map((projects, index) => (
-              <Link href={`/projects/${projects.id}`}>
+              <Link
+                href={`/projects/${projects.id}`}
+                scroll={false}
+                onClick={saveScrollPosition}
+              >
                 <div
                   key={index}
                   className=" bg-gray-700 mb-2 w-full md:w-[35vw] rounded-t-lg mr-4 text-white"
